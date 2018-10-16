@@ -11,7 +11,7 @@
 	<title>Jayesh Patel | Portfolio</title>
 	<!-- Font Link -->
 	<link href="https://fonts.googleapis.com/css?family=Montserrat|Montserrat+Alternates|Roboto+Slab" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
 	<!-- CSS Links -->
 
 	<!-- Custom CSS -->
@@ -25,13 +25,13 @@
     <nav class="transparent z-depth-0" role="navigation">
       <div class="nav-wrapper">
         <ul class="right hide-on-med-and-down">
-          <li><a class="tooltipped" data-position="bottom" data-tooltip="about" href="#about-target">A</a></li>
-          <li><a class="tooltipped" data-position="bottom" data-tooltip="work" href="#work">W</a></li>
-          <li><a class="tooltipped" data-position="bottom" data-tooltip="contact" href="#contact">C</a></li>
+          <li><a href="#about">A</a></li>
+          <li><a href="#work">W</a></li>
+          <li><a href="#contact">C</a></li>
         </ul>
 
         <ul id="nav-mobile" class="sidenav">
-          <li><a href="#about-target">About</a></li>
+          <li><a href="#about">About</a></li>
           <li><a href="#">Work</a></li>
           <li><a href="#">Contact</a></li>
         </ul>
@@ -39,7 +39,7 @@
       </div>
     </nav>
   </div>
-  <div class="head">
+  <div id="intro" class="head">
 	  <div class="parallax-container main-parallax">
 	  	<div class="section no-pad-bot">
 	      <div class="container">
@@ -62,41 +62,149 @@
 	<div class="fixed-action-btn vertical hide-on-small-only">
     <a class="btn-floating btn-large black"><i class="fa fa-globe amber-text text-lighten-1"></i></a>
     <ul>
-        <li><a class="btn-floating black"><i class="fa fa-facebook amber-text text-lighten-1"></i></a></li>
-        <li><a class="btn-floating black"><i class="fa fa-twitter amber-text text-lighten-1"></i></a></li>
-        <li><a class="btn-floating black"> <i class="fa fa-github amber-text text-lighten-1"></i></a></li>
-        <li><a class="btn-floating black"><i class="fa fa-linkedin amber-text text-lighten-1"></i></a></li>
+        <li><a class="btn-floating black"><i class="fab fa-facebook amber-text text-lighten-1"></i></a></li>
+        <li><a class="btn-floating black"><i class="fab fa-twitter amber-text text-lighten-1"></i></a></li>
+        <li><a class="btn-floating black"><i class="fab fa-github amber-text text-lighten-1"></i></a></li>
+        <li><a class="btn-floating black"><i class="fab fa-linkedin amber-text text-lighten-1"></i></a></li>
     </ul>
 	</div>
 	<!-- Floating Action Button Code Ends -->
 	<!-- <div class="divider"></div> -->
-	<a id="about-target"></a>
-	<div id="about" class="section black">
-    <div class="container">
-      <div class="row">
-        <div  class="col s12">
-          <h2 class="center header">"It’s the weak mind that cannot accept change."</h2>
-         </div>
-      </div>
-      <div class="row center">
-	      <div class="col s12 m12 l3">
-	          <img class="responsive-img" src="img/img2.jpg">
+	<div id="about" class="white">
+		<div class="about section">
+	    <div class="container">
+	      <div class="row center flex">
+	        <div class="col s12 m12 l3 valign-wrapper hide-on-med-and-down">
+	            <img class="responsive-img circle" src="img/img3.jpg">
+	        </div>
+	        <dic class="col s12 m12 offset-l1 l8">
+	          <h5 class="center"><b>about me.</b></h5>
+	          <p class="center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.  
+	            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,it anim id est laborum.              
+	            <br />
+	            <i>"No random actions! None not based on underlying principles."</i> 
+	          </p>
+	        </dic>
 	      </div>
-	      <dic class="col s12 m12 offset-l1 l8 ">
-	          <h5 class="center"><b>About Me</b></h5>
-	          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-	          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-	          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-	          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-	          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-	          	<br />
-	          	<i>“Some Awesome Quote To Show Off!” </i> 
-	        	</p>
-	     </dic>
-      </div>
+	    </div>
+	  </div>
+	  <div class="skillset section">
+	  	<div class="container">
+        <div class="row">
+          <h5 class="center"><b>my skills.</b></h5>
+        </div>
+        <div class="row">
+	        <div class="col s12 m4">
+	          <div class="icon-block">
+	            <h3 class="center"><i class="fa fa-code"></i></h3>
+	            <h6 class="center">Programming Languages</h6>
+	            <br>
+	            <div class="row">
+		            <div class="col s6">
+		            	<ul class="left-aligned">
+		            		<li>Java</li>
+			            	<li>C++</li>
+			            	<li>C</li>
+			            	<li>HTML</li>
+			            	<li>CSS</li>
+			            	<li>MySQL</li>
+			            	<li>Python</li>
+		            	</ul>
+		            </div>
+		            <div class="col s6">
+		            	<ul class="right-aligned" style="text-align: right;">
+		            		<li><div class="progress"><div class="determinate" style="width: 80%"></div></div></li>
+			            	<li><div class="progress"><div class="determinate" style="width: 80%"></div></div></li>
+			            	<li><div class="progress"><div class="determinate" style="width: 60%"></div></div></li>
+			            	<li><div class="progress"><div class="determinate" style="width: 80%"></div></div></li>
+			            	<li><div class="progress"><div class="determinate" style="width: 80%"></div></div></li>
+			            	<li><div class="progress"><div class="determinate" style="width: 70%"></div></div></li>
+			            	<li><div class="progress"><div class="determinate" style="width: 60%"></div></div></li>
+		            	</ul>
+		            </div>
+		          </div>
+	          </div>
+	        </div>
+
+	        <div class="col s12 m4">
+	          <div class="icon-block">
+	            <h3 class="center"><i class="fa fa-laptop"></i></h3>
+	            <h6 class="center">Hard Skills</h6>
+	            <br>
+	            <div class="row">
+		            <div class="col s6">
+		            	<ul class="left-aligned">
+		            		<li>GIT</li>
+			            	<li>Algorithms</li>
+		            	</ul>
+		            </div>
+		            <div class="col s6">
+		            	<ul class="right-aligned" style="text-align: right;">
+		            		<li><div class="progress"><div class="determinate" style="width: 70%"></div></div></li>
+			            	<li><div class="progress"><div class="determinate" style="width: 60%"></div></div></li>
+			            	<!-- <li><div class="progress"><div class="determinate" style="width: 80%"></div></div></li>
+			            	<li><div class="progress"><div class="determinate" style="width: 80%"></div></div></li>
+			            	<li><div class="progress"><div class="determinate" style="width: 80%"></div></div></li>
+			            	<li><div class="progress"><div class="determinate" style="width: 80%"></div></div></li>
+			            	<li><div class="progress"><div class="determinate" style="width: 80%"></div></div></li> -->
+		            	</ul>
+		            </div>
+		          </div>
+	          </div>
+	        </div>
+
+	        <div class="col s12 m4">
+	          <div class="icon-block">
+	            <h3 class="center"><i class="fa fa-layer-group"></i></h3>
+	            <h6 class="center">Framework / Libraries</h6>
+	            <br>
+	            <div class="row">
+		            <div class="col s6">
+		            	<ul class="left-aligned">
+		            		<li>Node.js</li>
+			            	<li>Express</li>
+			            	<li>Bootstrap</li>
+			            	<li>Materialize</li>
+			            	<li>jQuery</li>
+			            	<li>Semantics</li>
+			            	<li>D3.js</li>
+		            	</ul>
+		            </div>
+		            <div class="col s6">
+		            	<ul class="right-aligned" style="text-align: right;">
+		            		<li><div class="progress"><div class="determinate" style="width: 90%"></div></div></li>
+			            	<li><div class="progress"><div class="determinate" style="width: 90%"></div></div></li>
+			            	<li><div class="progress"><div class="determinate" style="width: 80%"></div></div></li>
+			            	<li><div class="progress"><div class="determinate" style="width: 90%"></div></div></li>
+			            	<li><div class="progress"><div class="determinate" style="width: 60%"></div></div></li>
+			            	<li><div class="progress"><div class="determinate" style="width: 60%"></div></div></li>
+			            	<li><div class="progress"><div class="determinate" style="width: 80%"></div></div></li>
+		            	</ul>
+		            </div>
+		          </div>
+	          </div>
+	        </div>
+      	</div>
+    	</div>
+    <div class="resume section">
+    	<div class="container">
+    		<div class="row center">
+          <a class="waves-effect waves-light btn-large">my resume.</a>
+        </div>
+    	</div>
+	  </div>
+  </div>
+	<footer class="section page-footer black">
+    <div class="container center-align">
+      &#169; Jayesh Patel | 2018
     </div>
-	</div>
+	</footer>
 	<!-- Scripts -->
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	<script src="js/materialize.js"></script>

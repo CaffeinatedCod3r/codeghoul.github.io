@@ -17,6 +17,7 @@
   width: 100%;
   margin: 0;
   padding: 0;
+  background-color: #222022;
  }
 
 .navbar-fixed {
@@ -25,12 +26,10 @@
   color: white;
 }
 
-.navbar-fixed ul {
-  margin-right: 25px;
-}
-
 .navbar-fixed ul li a{
-  color: #ffca28; 
+  color: #ffca28;
+  background-color: black;
+  font-weight: 800;
 }
 
 .navbar-fixed ul li a:hover{
@@ -66,4 +65,43 @@ nav .brand-logo {
 .head p {
   font-size: 20px;
   font-family: 'Montserrat Alternates', serif;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.second-parallax {
+  background: url(../img/img2.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+#about {
+  color: #222022;
+}
+
+#about h5 {
+  border-bottom: 1px solid #ffca28;
+  border-bottom-width: 5px;
+}
+
+.icon-block .progress {
+  height: 15px;
+  margin: 0 0 0.5rem 0;
+  /*background-color: #222022;*/
+}
+
+.icon-block .determinate {
+  /*background-color: #ffca28;*/
 }
