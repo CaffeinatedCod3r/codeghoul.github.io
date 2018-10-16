@@ -1,0 +1,69 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+ * {
+  margin: 0;
+  padding: 0;
+ }
+
+ body, html {
+  font-family: 'Montserrat Alternates', serif;
+  color: #ffca28;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+ }
+
+.navbar-fixed {
+  position: absolute;
+  z-index:999999999;
+  color: white;
+}
+
+.navbar-fixed ul {
+  margin-right: 25px;
+}
+
+.navbar-fixed ul li a{
+  color: #ffca28; 
+}
+
+.navbar-fixed ul li a:hover{
+  color: #ffca28;
+  border-bottom: 0.5px solid #ffca28;
+}
+
+.material-tooltip {
+  color: #ffca28;
+  background-color: transparent;
+}
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+.main-parallax {
+  background: url(../img/img1.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.head h1 {
+  font-weight: 800;
+  font-size: 10vw;
+  font-family: 'Montserrat Alternates', serif;
+  margin-top: 22vh;
+}
+
+.head p {
+  font-size: 20px;
+  font-family: 'Montserrat Alternates', serif;
+}

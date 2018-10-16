@@ -3,66 +3,105 @@
 
 <head>
 	<meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta name="description" content="A Minimalistic Portfolio"/>
-		<meta name="keywords" content="jayesh patel, portfolio, glitch, effect, css, animations" />
-		<meta name="author" content="Jayesh Patel" />
-    <link rel="shortcut icon" href="favicon.ico">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="A Minimalistic Portfolio"/>
+	<meta name="keywords" content="jayesh patel, portfolio, glitch, effect, css, animations" />
+	<meta name="author" content="Jayesh Patel" />
+  <link rel="shortcut icon" href="favicon.ico">
 	<title>Jayesh Patel | Portfolio</title>
-	
+	<!-- Font Link -->
 	<link href="https://fonts.googleapis.com/css?family=Montserrat|Montserrat+Alternates|Roboto+Slab" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+	<!-- CSS Links -->
 
-	<link rel="stylesheet" type="text/css" href="css/fullpage.css" />
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-	<link rel="stylesheet" type="text/css" href="css/master.css" />
-	<link rel="stylesheet" type="text/css" href="css/glitch.css" />
+	<!-- Custom CSS -->
+	<link rel="stylesheet" type="text/css" href="css/materialize.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
 <body>
-	<div id="fullpage">
-		<div class="section" id="section1">
-			<div class="intro loading container">
-				<div class="content">
-					<!-- <div class="glitch">
-						<div class="glitch__img"></div>
-						<div class="glitch__img"></div>
-						<div class="glitch__img"></div>
-						<div class="glitch__img"></div>
-						<div class="glitch__img"></div>
-					</div> -->
-					<h2 class="content__title">jayesh patel.</h2>
-					<p class="content__text">fullstack web developer | competitive programmer | noobie designer</p>
-				</div>
-			</div>
-		</div>
-		<div class="section" id="section2">
-			<div class="about container">
-				<h2>about</h2>
-			</div>
-		</div>
-		<div class="section" id="section3">
-		</div>
-		<div class="section" id="section4">
-		</div>
-	</div>
-	<script type="text/javascript" src="js/fullpage.min.js"></script>
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-	<script type="text/javascript" src="js/master.js"></script>
-	<script src="js/imagesloaded.pkgd.min.js"></script>
-	<script src="js/glitch.js"></script>
-	<script type="text/javascript">
-	  var myFullpage = new fullpage('#fullpage', {
-	    anchors: ['intro', 'about', 'projects', 'contact'],
-	    sectionsColor: ['#222022', '#222022', '#222022', '#222022'],
-	    navigation: true,
-	    navigationPosition: 'right',
-	    navigationTooltips: ['intro', 'about', 'projects', 'contact'],
-	    licenseKey: 'OPEN-SOURCE-GPLV3-LICENSE'
-	  });
+	<div class="navbar-fixed">
+    <nav class="transparent z-depth-0" role="navigation">
+      <div class="nav-wrapper">
+        <ul class="right hide-on-med-and-down">
+          <li><a class="tooltipped" data-position="bottom" data-tooltip="about" href="#about-target">A</a></li>
+          <li><a class="tooltipped" data-position="bottom" data-tooltip="work" href="#work">W</a></li>
+          <li><a class="tooltipped" data-position="bottom" data-tooltip="contact" href="#contact">C</a></li>
+        </ul>
 
-	  //methods
-		fullpage_api.setAllowScrolling(false);
-	</script>
+        <ul id="nav-mobile" class="sidenav">
+          <li><a href="#about-target">About</a></li>
+          <li><a href="#">Work</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      </div>
+    </nav>
+  </div>
+  <div class="head">
+	  <div class="parallax-container main-parallax">
+	  	<div class="section no-pad-bot">
+	      <div class="container">
+	        <br><br><br>
+	        <h1 class="header center amber-text text-lighten-1">jayesh patel.</h1>
+	        <div class="row center">
+	          <p class="type-writer amber-text text-lighten-1"><span
+	     				class="txt-rotate"
+	     				data-period="2000"
+	     				data-rotate='["full-stack web developer | competitive programmer | foodie"]'></span>
+	     			</p>
+	        </div>
+	        <br><br>
+	      </div>
+	    </div>
+	    <div class="parallax"><img src="img/img1.jpg"></div>
+	  </div>
+	</div>
+	<!-- Floating Action Button Code Starts-->
+	<div class="fixed-action-btn vertical hide-on-small-only">
+    <a class="btn-floating btn-large black"><i class="fa fa-globe amber-text text-lighten-1"></i></a>
+    <ul>
+        <li><a class="btn-floating black"><i class="fa fa-facebook amber-text text-lighten-1"></i></a></li>
+        <li><a class="btn-floating black"><i class="fa fa-twitter amber-text text-lighten-1"></i></a></li>
+        <li><a class="btn-floating black"> <i class="fa fa-github amber-text text-lighten-1"></i></a></li>
+        <li><a class="btn-floating black"><i class="fa fa-linkedin amber-text text-lighten-1"></i></a></li>
+    </ul>
+	</div>
+	<!-- Floating Action Button Code Ends -->
+	<!-- <div class="divider"></div> -->
+	<a id="about-target"></a>
+	<div id="about" class="section black">
+    <div class="container">
+      <div class="row">
+        <div  class="col s12">
+          <h2 class="center header">"It’s the weak mind that cannot accept change."</h2>
+         </div>
+      </div>
+      <div class="row center">
+	      <div class="col s12 m12 l3">
+	          <img class="responsive-img" src="img/img2.jpg">
+	      </div>
+	      <dic class="col s12 m12 offset-l1 l8 ">
+	          <h5 class="center"><b>About Me</b></h5>
+	          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	          	<br />
+	          	<i>“Some Awesome Quote To Show Off!” </i> 
+	        	</p>
+	     </dic>
+      </div>
+    </div>
+	</div>
+	<!-- Scripts -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+	<!-- Custom Scripts -->
+	<script type="text/javascript" src="js/typing.js"></script>
 </body>
 </html>
