@@ -1,6 +1,6 @@
 M.AutoInit();
 
-window.addEventListener("onload", fun);
+window.addEventListener("load", fun);
 
 window.addEventListener("resize", fun);
 
