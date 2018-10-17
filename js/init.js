@@ -1,27 +1,19 @@
-(function($){
-  $(function(){
+M.AutoInit();
 
-    $('.sidenav').sidenav();
-    $('.parallax').parallax();
-    $('.scrollspy').scrollSpy();
-    windowH();
+window.addEventListener("onload", fun);
+
+window.addEventListener("resize", fun);
+
+function fun() {
+    fullpageparallax();
     mapheight();
-    $(window).resize(function() {
-        windowH();
-        mapheight();
-    });
-    $('.fixed-action-btn').floatingActionButton();
-    $('.tooltipped').tooltip();
-  }); // end of document ready
-})(jQuery); // end of jQuery name space
+}
 
-
-function windowH() {
-   var wH = $(window).height();
-   $('.main-parallax').css({height: wH});
+function fullpageparallax() {
+   var wh = window.innerHeight;
+   document.getElementById('main-parallax').style.height = wh + 'px';
 }
 
 function mapheight() {
-  var contactH =  $('#contact-block').height();
-  $('#map').css({height : contactH});
+  document.getElementById('map').style.height = document.getElementById('contact-block').clientHeight;
 }
