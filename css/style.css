@@ -28,7 +28,7 @@
 
 .navbar-fixed ul li a{
   color: #ffca28;
-  background-color: black;
+  background-color: transparent;
   font-weight: 800;
 }
 
@@ -37,18 +37,13 @@
   border-bottom: 0.5px solid #ffca28;
 }
 
-.material-tooltip {
-  color: #ffca28;
-  background-color: transparent;
-}
-
 nav ul a,
 nav .brand-logo {
   color: #444;
 }
 
 .main-parallax {
-  background: url(../img/img1.jpg) no-repeat center center fixed;
+  background: url(../img/imgsmall1.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -70,14 +65,6 @@ nav .brand-logo {
 .flex {
   display: flex;
   flex-wrap: wrap;
-}
-
-.second-parallax {
-  background: url(../img/img2.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
 }
 
 .icon-block {
@@ -104,4 +91,39 @@ nav .brand-logo {
 
 .icon-block .determinate {
   /*background-color: #ffca28;*/
+}
+
+.second-parallax {
+  background: url(../img/imgsmall2.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 50vh;
+}
+
+.second-parallax h4{
+  color: #ffca28;
+  font-style: italic;
+}
+
+.third-parallax {
+  background: url(../img/imgsmall4.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 50vh;
+}
+
+.projects .card a{
+  color: #26a69a;
+}
+
+.btn-floating {
+  background-color: transparent;
+}
+
+.btn-floating:hover {
+  background-color: transparent;
 }
